@@ -1,0 +1,11 @@
+{
+  "name": "my-website",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.3",
+    "axios": "^0.19.2",
+    "nuxt": "^2.12.2"
+  }
+}
