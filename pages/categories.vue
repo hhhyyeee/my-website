@@ -3,8 +3,9 @@
         <table>
             <tbody>
 <!--            <tr><nuxt-link :to="{ name: 'category-category', params: { category: 'all' } }">All</nuxt-link></tr>-->
-            <tr><nuxt-link :to="{ name: 'category-category', params: { category: 'Dev' } }">Dev</nuxt-link></tr>
-            <tr><nuxt-link :to="{ name: 'category-category', params: { category: 'Film' } }">Film</nuxt-link></tr>
+            <tr><nuxt-link class="cell" :to="{ name: 'category-category', params: { category: 'Dev' } }">Dev</nuxt-link></tr>
+            <tr><nuxt-link class="cell" :to="{ name: 'category-category', params: { category: 'Film' } }">Film</nuxt-link></tr>
+            <tr><nuxt-link class="cell" :to="{ path: 'comments' }">Comments</nuxt-link></tr>
             </tbody>
         </table>
     </div>
@@ -28,5 +29,9 @@
     }
     tr {
         height: 2em;
+    }
+    .cell {
+        vertical-align: middle;
+        display: table-cell;
     }
 </style>
