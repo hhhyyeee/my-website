@@ -1,5 +1,6 @@
 <template>
     <div class="box">
+        <div class="title-light">{{ posts.length }} posts</div>
         <table>
             <tbody>
             <tr v-for="post in posts" :key="post.id">
@@ -20,6 +21,7 @@
         },
         data () {
             return {
+                posts: null
             }
         }
     }
@@ -28,12 +30,5 @@
 <style scoped>
     table {
         width: 100%;
-    }
-    tr {
-        height: 3em;
-    }
-    .cell {
-        vertical-align: middle;
-        display: table-cell;
     }
 </style>

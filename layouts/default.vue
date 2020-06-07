@@ -7,7 +7,6 @@
             <table>
                 <tbody>
                 <tr>
-<!--                    <td><nuxt-link :to="{ name: 'category-category', params: { category: 'all' } }">All</nuxt-link></td>-->
                     <td><nuxt-link :to="{ name: 'category-category', params: { category: 'Dev' } }">Dev</nuxt-link></td>
                     <td><nuxt-link :to="{ name: 'category-category', params: { category: 'Film' } }">Film</nuxt-link></td>
                     <td><nuxt-link to="/categories">Categories</nuxt-link></td>

@@ -27,8 +27,18 @@
         margin-bottom: 2em;
     }
     .post-content {
-        letter-spacing: 1px;
         white-space: pre-line;
         text-align: left;
+    }
+    a {
+        height: 1.5em;
+        color: #2c3e50;
+        background-color: transparent;
+        border-radius: 5px;
+        border: 1px solid #2c3e50;
+    }
+    a:hover {
+        background-color: #2c3e50;
+        color: #FFFFFF;
     }
 </style>

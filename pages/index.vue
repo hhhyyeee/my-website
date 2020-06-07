@@ -38,8 +38,8 @@
     .box {
         width: 50%;
         margin: auto;
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
         border-bottom: solid 1px #2c3e50;
     }
     .title {
@@ -56,19 +56,22 @@
         padding: 1em;
     }
     .post-list {
-        padding: 2px;
+        vertical-align: middle;
+        padding: 0;
     }
-    a:link {
+    .cell {
+        vertical-align: middle;
+        display: inline-block;
+    }
+    a {
         color: #2c3e50;
         background-color: transparent;
         text-decoration: none;
-    }
-    a:visited {
-        color: #2c3e50;
-        background-color: transparent;
-        text-decoration: none;
+        display: inline-block;
+        padding: 5px;
     }
     ul {
         list-style: none;
+        margin: 0;
     }
 </style>
